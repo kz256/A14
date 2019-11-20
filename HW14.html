@@ -1,0 +1,48 @@
+<!DOCTYP html>
+<html lang="en">
+<head>
+        <title>Homework 14 sample website</title>
+		<script type = "text/javascript">
+         <!--
+            function WriteCookie() {
+               var now = new Date();
+               now.setMonth( now.getMonth() + 1 );
+               cookievalue = escape(document.myform.customer.value) + ";"
+               
+               document.cookie = "name=" + cookievalue;
+               document.cookie = "expires=" + now.toUTCString() + ";"
+               document.write ("Setting Cookies : " + "name=" + cookievalue );
+            }
+         //-->
+      </script>  
+</head>
+<body>
+        <header>          
+              <link rel="stylesheet" href="Is.css" >
+			  <h2> Homework Sample Website</h2>
+			  <h3> Due date 11/20 <em/class="shadow">IS 117</h3>
+		</header>
+        <main>
+        <section>
+               <h2 style"color:#567680">HTML</h2>
+<p> Stands for "Hypertext Markup Language." HTML is the language used to create webpages.<br> "Hypertext" refers to the hyperlinks that an HTML page may contain. <br>
+"Markup language" refers to the way tags are used to define the page layout and elements within the page.</p>
+<img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="logo" height="50">
+               <h2>CSS</h2> 
+                   <ul>
+				   <li>CSS stands for Cascading Style Sheets</li>
+				   <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media </li>
+				   <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+				   <li>External stylesheets are stored in CSS files</li>
+				   </ul>
+	<form>
+  <input type="text" placeholder="Username" id="text1" /><br />
+  <input type="password" placeholder="Password" id="text2" /><br />
+  <input type="button" value="Login" onclick="javascript:validate()" />
+    </form>
+</main>
+<footer>
+         <p>&copy; Ke Zhang 11.20.2019,HW14</P>
+</footer>
+</body>
+</html>
